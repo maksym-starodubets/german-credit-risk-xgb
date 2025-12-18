@@ -64,6 +64,3 @@ The model achieves high recall, indicating strong performance in identifying hig
 - Probability calibration
 - Comparison with simpler baseline models (e.g., logistic regression)
 
-## Author
-Student in Data Science / Machine Learning  
-Project developed as part of academic training and internship preparation
