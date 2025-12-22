@@ -57,7 +57,10 @@ To understand the model's decision-making process, I used SHAP (SHapley Additive
 <img width="656" height="701" alt="image" src="https://github.com/user-attachments/assets/c36fde85-f69f-4b7b-9128-e4fd841c6a73" />
 
 
-*Key Insight:* As seen in the plot, features like `Checking account_moderate` and `Duration` have the strongest influence on predicting credit risk.
+**Key Insights:**
+1.  **Duration (Credit Term)** is the most critical predictor. The model suggests that shorter loan durations generally increase the likelihood of a customer being classified as "Good Credit," while longer durations tend to increase risk.
+2.  **Age** is the second most important factor. The distribution indicates that older applicants are more likely to be seen as reliable borrowers compared to younger applicants.
+3.  **Credit Amount** and **Housing Ownership** also play significant roles in the model's risk assessment.
 
 
 ## Key Learnings
