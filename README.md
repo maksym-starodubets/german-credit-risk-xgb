@@ -51,6 +51,15 @@ Validation set performance:
 
 The model achieves high recall, indicating strong performance in identifying high-risk customers, which is often a priority in credit risk applications.
 
+### Model Interpretation
+To understand the model's decision-making process, I used SHAP (SHapley Additive exPlanations). The summary plot below shows the impact of each feature on the model output:
+
+<img width="656" height="701" alt="image" src="https://github.com/user-attachments/assets/c36fde85-f69f-4b7b-9128-e4fd841c6a73" />
+
+
+*Key Insight:* As seen in the plot, features like `Checking account_moderate` and `Duration` have the strongest influence on predicting credit risk.
+
+
 ## Key Learnings
 - Practical use of machine learning pipelines
 - Hyperparameter optimization strategies
